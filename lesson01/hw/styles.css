@@ -29,13 +29,13 @@ a {
     line-height: 60px;
     text-decoration: none;
 }
-h1,h2 {
+h1,h3 {
     margin-top: 32px;
     color: #000;
-    text-align: center;
+    text-align:left;
     font-size: 40 px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
 }
 main {
@@ -48,6 +48,14 @@ main {
 }
 
 p {
+    width: 600px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+  }
+  .about {
     width: 600px;
     color: #000;
     font-size: 24px;
