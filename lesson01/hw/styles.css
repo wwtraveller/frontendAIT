@@ -80,3 +80,37 @@ footer {
     display: flex;
     padding: 20px 0px;
 }
+section {
+    border-radius: 15px;
+    width: 600px;
+    height: 250px;
+    border: 0.5px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin: 10px 250px 30px 650px; /* внешний отступ */
+}
+.class1 {
+    border-radius: 50%;
+    width: 350px;
+    display: flex;
+    align-items: left;
+}
+.class {
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    align-items: left;
+}
+/*.nth {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.block {
+    
+}*/
