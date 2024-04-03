@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+    height: 400vh;
+}
+p {
+    color: red;
+}
+p.green {
+    color: green;
+}
+#blue {
+    color: blue;
+}
+.nth {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.block {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+.nth div:nth-child(even) {
+    background-color: blue;
+}
+.nth div:nth-child(5) {
+    background-color: green;
+}
