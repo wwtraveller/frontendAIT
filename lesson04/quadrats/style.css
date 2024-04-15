@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.block {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .block-one {
+    background-color: #b39ddb;
+  }
+  
+  .block-two {
+    background-color: #484c61;
+    margin-left: 200px;
+  }
+  
+  .block-three {
+    background-color: #dfb0df;
+    margin-left: 400px;
+    height: calc(100vh - 400px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-width: calc(100vw - 400px); */
+  }
