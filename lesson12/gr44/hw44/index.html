@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Задание. Практика HMTL & CSS.
+Создать форму, у которой 2 поля, и 1 кнопка. Поля предусматривают ввод роста и веса человека, кнопка - отправку данных.
+
+Также предусмотреть блок, в который будет выводиться результат расчета индекса массы тела (BMI), и второй блок - результат, который будет говорить о том, соответствует ли индекс массы тела норме.
+
+-->
+<div class="container" id="container">
+<div class="c1">
+    <h1 class="h1">Расчет идеального веса через Индекс Массы Тела (ИМТ)</h1>
+</div>
+<br>
+<div class="c2">
+        <input class="height" type="number" id="height">
+        <label class="heightLabel">Рост (сантиметры)</label>
+</div>
+<br>
+<div class="c3">
+        <input class="weight" type="number" id="weight">
+        <label class="weightLabel">Текущий вес</label>
+</div>
+<br>
+<div class="c4">
+        <button type="button" id="resultButton" class="button">
+            Рассчитать
+        </button>
+</div>
+<br>
+<div class="c5">
+    <div class="imt">Текущий ИМТ</div>
+    <span id="resultImt"></span>
+</div>
+<br>
+<div class="c6">
+    <div class="imt2">ИМТ соответствует</div>
+    <span id="result"></span>
+</div>
+</div>
+
+</body>
+</html>
